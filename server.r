@@ -1,9 +1,6 @@
 # shiny functionality
 # retrieve input when changed
-# add test dependent input (mu, sg, es)
-# show specification
-# provide output using functions of susanne
-source("susanne.r")
+# provide output using functions inside
 server <- function(input, output) {
 
 	getInput <- reactive({
